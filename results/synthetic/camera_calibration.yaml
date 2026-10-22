@@ -1,0 +1,19 @@
+%YAML:1.0
+---
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1126.8474011260234, 0., 638.77207444413227, 0.,
+       1152.6334509466965, 480.31206160382612, 0., 0., 1. ]
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -0.13031640609969217, 0.13083807633065508,
+       0.0011613978516982768, -0.0010547708789836443,
+       -0.27454289662650599 ]
+image_width: 1280
+image_height: 960
+distortion_model: plumb_bob
+square_unit: m

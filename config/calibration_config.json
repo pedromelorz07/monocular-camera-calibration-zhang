@@ -1,0 +1,15 @@
+{
+  "board": {"inner_corners": [8, 6], "square_size": 0.025, "unit": "m"},
+  "image_glob": "*.png",
+  "minimum_views": 5,
+  "subpixel_window": [11, 11],
+  "synthetic": {
+    "image_size": [1280, 960],
+    "number_of_images": 24,
+    "seed": 42,
+    "square_pixels": 120,
+    "focal_ratio_x": 0.88,
+    "focal_ratio_y": 0.90,
+    "distortion_coefficients": [-0.12, 0.035, 0.001, -0.0008, -0.006]
+  }
+}
